@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 
 import "./styles/styles.css";
 import "./styles/normalize.css";
-import GifExpertApp from "./GifExpertApp.jsx";
+import { GifExpertApp } from "./GifExpertApp";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import { AddCategory, ListCategories } from "./components";
-export default function GifExpertApp() {
+export const GifExpertApp = () => {
   const [categories, setCategories] = useState(["One Punch"]);
   const onAddCategory = (newCategory) => {
     if (categories.includes(newCategory)) return;
@@ -20,4 +20,4 @@ export default function GifExpertApp() {
       <hr />
     </div>
   );
-}
+};
