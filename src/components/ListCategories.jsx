@@ -1,4 +1,4 @@
-import GifGrid from "./GifGrid";
+import { GifGrid } from "./GifGrid";
 export const ListCategories = ({ categories }) => {
   return (
     <ol>
